@@ -8,7 +8,7 @@ import time, json, os
 from flask import Flask, request, jsonify
 
 # CONSTANTS
-SUBSCRIPTION_KEY = "f9ddbc5aa459428499ff21edcb0d7dfa"
+SUBSCRIPTION_KEY = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 ENDPOINT = "https://computer-vision-api-final.cognitiveservices.azure.com/"
 APP = Flask(__name__)
 
