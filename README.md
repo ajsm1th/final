@@ -36,3 +36,11 @@ which returns the following (this is what the HTML return would look like)
 This is what the JSON return looks like
 
 ![final pic4](https://user-images.githubusercontent.com/122126853/236357032-ca951f16-237f-42da-a12d-ac567091d805.JPG)
+
+
+Example entries if you would like to try:
+
+https://github.com/Azure-Samples/cognitive-services-sample-data-files/blob/master/ComputerVision/Images/handwritten_text.jpg
+https://imgv3.fotor.com/images/blog-richtext-image/How-to-Make-Text-Stand-Out-And-More-Readable.jpg
+
+Or choose your own image with text.
