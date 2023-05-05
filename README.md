@@ -1,5 +1,6 @@
 # Azure Cognitive Service | Computer Vision API 
 Optical character recognition, using Python with help of Azure Cognitive Service | Computer Vision API
+Currently this code only works for images located on a web server.
 
 I used Digital Ocean to create a virtual server to host my code.
 Postman will be needed to use the code for read as I did not create an application for a front end.
@@ -21,3 +22,12 @@ There are several choices for how you would like your data to be returned.  The 
 For this example I have chosen JSON.  To change the result just change what you have chosen from the drop down.  There is no need to resubmit your request.
 
 ![Final pic2](https://user-images.githubusercontent.com/122126853/236354814-b7b71f2c-bce8-42a8-953c-72cf47ac6a55.JPG)
+
+In this image you can see the url you submitted.
+The contect-type you are using 
+The text in the url you have submitted.
+
+To change your request put in the url for what you would like analyzed.
+Such as "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/printed_text.jpg"
+which returns
+
