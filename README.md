@@ -29,5 +29,6 @@ The text in the url you have submitted.
 
 To change your request put in the url for what you would like analyzed.
 Such as "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/printed_text.jpg"
-which returns
+which returns the following in a JSON file
 
+![Final pic3](https://user-images.githubusercontent.com/122126853/236356800-18b57918-7b77-4240-96c9-4468f520234c.JPG)
