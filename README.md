@@ -11,7 +11,7 @@ How does OCR work?
 OCR algorithms can be based on traditional image processing and machine learning-based approaches or deep learning-based methods.
 Traditional Approaches to OCR go through a series of pre-processing steps where the inspected document is cleaned and made noise-free. Following this, the document is binarized for subsequent contour detection to aid in the detection of lines and columns.
 
-https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/6115480dd14fc5a53a414c35_general-ocr-model.png
+https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61154671c05e0cda312c86eb_optical-character-recognition.png
 
 ref: https://www.v7labs.com/blog/ocr-guide
 
