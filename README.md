@@ -2,21 +2,45 @@
 Optical character recognition, using Python with help of Azure Cognitive Service | Computer Vision API
 Currently this code only works for images located on a web server.
 
-I used Digital Ocean to create a virtual server to host my code.
-Postman will be needed to use the code for read as I did not create an application for a front end.
+What is Optical Character Recognition?
+Optical Character Recognition (OCR) is the process of detecting and reading text in images through computer vision.
+
+https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61154671c05e0cda312c86eb_optical-character-recognition.png
+
+How does OCR work?
+OCR algorithms can be based on traditional image processing and machine learning-based approaches or deep learning-based methods.
+Traditional Approaches to OCR go through a series of pre-processing steps where the inspected document is cleaned and made noise-free. Following this, the document is binarized for subsequent contour detection to aid in the detection of lines and columns.
+
+https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/6115480dd14fc5a53a414c35_general-ocr-model.png
+
+ref: https://www.v7labs.com/blog/ocr-guide
+
+I used a Digital Ocean to create a droplet to run tests and check for functionality.
+
+
+Try Out
+
+The server endpoint is 
+http://134.209.113.53:5000
+
+Post Request Body
+{"url":"<The url you would like the text converted from goes here>"}
 
 Please configure Postman with your content-type as application/json.
-Choose POST from the drop down
-your post will go to http://134.209.113.53:5000 which is my Digital Ocean virtual server.  It is listening on port 5000.
-This will be a read request so please add /read to the end of your post.
-Please make sure "Body" is selected in the menu
 Please make sure "raw" is selected in the menu
 
-Put the URL you would like to analyze into the request.
 
 ![final pic1](https://user-images.githubusercontent.com/122126853/236354162-d9eb5154-caac-40b2-bb51-f9ec9485e7a7.JPG)
 
 The result will be displayed in the bottom section of Postman.
+
+Possible Response codes:
+
+Response code	Description
+200		OK
+400		Input Validation Failed
+500		Internal Server Error
+
 
 There are several choices for how you would like your data to be returned.  The choices are JSON, XML, HTML, Text, or Auto
 For this example I have chosen JSON.  To change the result just change what you have chosen from the drop down.  There is no need to resubmit your request.
