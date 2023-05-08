@@ -19,7 +19,7 @@ ref: https://www.v7labs.com/blog/ocr-guide
 I used a Digital Ocean to create a droplet to run tests and check for functionality.
 
 
-Try Out
+# Try Out
 
 The server endpoint is 
 http://134.209.113.53:5000
@@ -38,7 +38,7 @@ Please make sure "raw" is selected in the menu
 
 The result will be displayed in the bottom section of Postman.
 
-Possible Response codes:
+# Possible Response Codes
 
 Response code	Description
 200		OK
