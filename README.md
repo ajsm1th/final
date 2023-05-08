@@ -40,11 +40,8 @@ The result will be displayed in the bottom section of Postman.
 
 # Possible Response Codes
 
-Response code	Description
-  
-200		OK
-400		Input Validation Failed
-500		Internal Server Error
+![final pic7](https://user-images.githubusercontent.com/122126853/236876584-7fce193a-2787-430c-a7f7-c214dc8a9ae6.JPG)
+
 
 
 There are several choices for how you would like your data to be returned.  The choices are JSON, XML, HTML, Text, or Auto
