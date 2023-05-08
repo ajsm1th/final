@@ -41,6 +41,7 @@ The result will be displayed in the bottom section of Postman.
 # Possible Response Codes
 
 Response code	Description
+  
 200		OK
 400		Input Validation Failed
 500		Internal Server Error
