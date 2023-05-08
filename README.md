@@ -23,6 +23,9 @@ Try Out
 The server endpoint is 
 http://134.209.113.53:5000
 
+API Endpoint
+http://134.209.113.53:5000/api/v1/read
+
 Post Request Body
 {"url":"<The url you would like the text converted from goes here>"}
 
