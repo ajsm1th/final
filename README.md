@@ -5,7 +5,8 @@ Currently this code only works for images located on a web server.
 What is Optical Character Recognition?
 Optical Character Recognition (OCR) is the process of detecting and reading text in images through computer vision.
 
-https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/61154671c05e0cda312c86eb_optical-character-recognition.png
+![final pic6](https://user-images.githubusercontent.com/122126853/236873381-2d2aa774-b175-4b8a-830b-3fa23382d85b.JPG)
+
 
 How does OCR work?
 OCR algorithms can be based on traditional image processing and machine learning-based approaches or deep learning-based methods.
